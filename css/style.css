@@ -1,0 +1,70 @@
+html,body{margin:0;padding:0;background:#143754 url(../images/base_bg.png) repeat top;width:100%;height:100%;font-family:Arial, Helvetica, sans-serif;}
+* html #wrap{height: 100%;}
+p,td{font-family:Arial, Helvetica, sans-serif; margin-top:0px; font-size:13px;}
+
+a img{border:0;}
+a{color: #005ba4;text-decoration:underline;}
+a:hover{color: #e18d06;	text-decoration:underline;}
+a.hidden{text-decoration: none;color:#000;cursor:default;}
+
+form{margin:0;padding:0;}
+div.clr{clear:both;}
+
+ul{margin:0 0 0 20px;padding:0;list-style-type: square;line-height: 16px;}
+
+h1{font-size:20px;font-weight:normal;color:#004e8d;margin:1px 0 10px;}
+h2{font-size:18px;font-weight:normal;color:#000;margin:2px 0 7px;}
+
+#wrap{position:relative; min-height:100%; margin:0 auto; width:100%;}
+#page{width:920px;margin:0 auto; padding-top:17px;}
+
+#header{position:relative; background:url(../images/header_bg.png) no-repeat; height:137px;}
+	#logo{}
+	#company_name{font-size:22px;font-weight:normal;text-transform: none;color: #FFF; width:250px; text-align:center; position:absolute; margin:35px 0 0 44px;}
+	#company_name span{color:#000;}
+	#callus{position:absolute; width:300px; top:46px; right:15px; color:#FFF; font-size:25px; text-align:right;}
+	#callus span{color:#ffa814;}
+
+#menu{font-weight:normal;padding: 0;white-space: nowrap; height:57px; background:url(../images/menu_bg.png) no-repeat; }
+	#menu .item{text-align:center;font-size:15px;color:#FFF; width:150px;}
+	#menu a{text-decoration: none;color: #FFF;}
+	#menu a:hover{color: #fcd888;text-decoration:none;}
+
+#contentwrap{position:relative; margin-top:10px; padding-bottom:10px; background:#d0d7dd url(../images/content_bg.png) no-repeat top; overflow:hidden;}
+	#body_area{color:#000;text-align: justify;padding:0px; margin:20px 20px 0 0; vertical-align: top; width:610px; float:right; font-size:13px;}
+	#sidebar{ float:left; width:260px; margin:20px 0 0 20px;}
+		#sidebar h2{font-size:18px;color:#004e8d; margin:2px 0 7px;}
+		#sidebar ul{list-style:none; font-size:13px; margin:0; padding:0;}
+		#sidebar ul li{padding:0 0 10px 17px; background:url(../images/bullet.png) no-repeat 0 3px;}
+		#sidebar ul li a{text-decoration:underline; color:#000;}
+
+	#blue-block{background:#5385ad url(../images/blue-block_bg.png) no-repeat top;width:246px;font-size:12px; color:#FFF; margin-bottom:15px;}
+		#blue-block .wrap{padding:10px 15px 5px;}
+		#blue-block h2{font-size:18px; color:#FFF;}
+		#blue-block .bottom{background:url(../images/blue-block_bottom.png) no-repeat; height:11px; overflow:hidden;}
+	#login_form{height: 20px;width: 150px;font-size: 12px;}
+	.float-right{float:right; margin:2px 0 5px 12px; border:1px solid #FFF;}
+
+#footer{width:920px; background:#b1c0cd url(../images/footer_bg.png) no-repeat bottom;}
+	#bottom_menu{color:#000;text-align: center;padding: 15px 15px 4px; font-size:12px;}
+	#bottom_menu a{color:#000;text-decoration:underline; padding:0 10px;}
+	#bottom_menu a:hover{color:#005ba4;text-decoration:underline;}
+
+	#bottom_addr{color:#FFF;text-align:center;padding: 4px 15px 15px; font-size:11px;}
+	#bottom_addr a{text-decoration:underline;}
+	#bottom_addr a:hover{text-decoration: underline;}
+
+#company_name{
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+
+#logo{
+    position: relative;
+    top: 33px;
+    left: 33px;
+}
+
+
+
